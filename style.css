@@ -99,3 +99,51 @@ html {
 .projects-block p {
     font-size: 1.5rem;
 }
+
+.contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-presentation-text {
+    width: 70%;
+}
+
+.form-presentation-text  h2{
+    font-size: 3rem;
+}
+
+.form-presentation-text  p{
+    font-size: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form-section input {
+    width: 30rem;
+    height: 5rem;
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+    border: none;
+    background-color: #f0f0f0;
+    padding-left: 1.5rem;
+}
+
+.form-section button {
+    height: 6rem;
+    width: 12rem;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+}
