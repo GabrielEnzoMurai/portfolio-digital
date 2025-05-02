@@ -128,8 +128,17 @@ form {
     justify-content: flex-start;
 }
 
+.form-presentation-text {
+    width: 100%;
+}
+
+.form-section {
+    justify-content: center;
+    align-items: center;
+}
+
 .form-section input {
-    width: 30rem;
+    width: 35rem;
     height: 5rem;
     margin-bottom: 2rem;
     box-sizing: border-box;
@@ -139,7 +148,7 @@ form {
 }
 
 .form-section button {
-    height: 6rem;
+    height: 5rem;
     width: 12rem;
     border: none;
     cursor: pointer;
