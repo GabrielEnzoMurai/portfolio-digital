@@ -33,7 +33,7 @@ html {
 
 .presentation-img img {
     width: 30vw;
-    height: 50vh;
+    height: 55vh;
     border-radius: 50%;
 }
 
@@ -103,6 +103,7 @@ html {
 .contact {
     display: flex;
     flex-direction: row;
+    margin-top: 5rem;
 }
 
 .form-presentation-text {
